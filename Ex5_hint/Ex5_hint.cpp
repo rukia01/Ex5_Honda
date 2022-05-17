@@ -40,6 +40,9 @@ public:
 
 };
 
+/// <summary>
+/// 円柱
+/// </summary>
 class Cylinder :Solid {
 private:
     double radius;
@@ -59,6 +62,9 @@ public:
     }
 };
 
+/// <summary>
+/// 円錐
+/// </summary>
 class Cone :Solid {
 private:
     double radius;
@@ -78,6 +84,9 @@ public:
     }
 };
 
+/// <summary>
+/// 球
+/// </summary>
 class Sphere :Solid {
 private:
     double radius;
